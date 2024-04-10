@@ -9,6 +9,6 @@ public class Cliente extends Persona {
         this.categoria=categoria;
     }
 public String mostrarDatos(){
-    return getNombre()+"Apellido/n"+getApellido()+"Documento/n"+getDocumento()+"Categoria"+Categoria;
+    return getNombre()+"Apellido/n"+getApellido()+"Documento/n"+getDocumento()+"Categoria"+categoria;
 }   
 }
